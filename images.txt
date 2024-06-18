@@ -6,4 +6,5 @@ emqx/emqx
 --platform=linux/arm64 snowdreamtech/frps:0.58.0
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
+ghcr.io/ansible/awx_devel:latest
 

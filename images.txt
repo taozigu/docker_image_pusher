@@ -8,6 +8,10 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 # ghcr.io/ansible/awx_devel:latest
 
-# postgres
+# 说明， 有新增库时，直接新增一行镜像地址即可。 如下，是添加一个postgres镜像。
+# 新增完成后，提交，将会自动将镜像推送到阿里云镜像库。然后，再用在本地用阿里云的镜像地址拉取。
+# 注，需要去掉前缀，因为代理会自动代理到阿里云。 比如：registry.cn-hangzhou.aliyuncs.com/taozigu/postgres， 实际拉的时候应该是，docker pull taozigu/postgres
 #--platform=linux/amd64
-postgres
+# postgres
+
+

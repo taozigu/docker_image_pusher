@@ -13,5 +13,7 @@
 # 注，需要去掉前缀，因为代理会自动代理到阿里云。 比如：registry.cn-hangzhou.aliyuncs.com/taozigu/postgres， 实际拉的时候应该是，docker pull taozigu/postgres
 #--platform=linux/amd64
 # postgres
+
+# postgres的hub.io地址： https://hub.docker.com/_/postgres/tags
 postgres:14
 

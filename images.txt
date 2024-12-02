@@ -8,3 +8,6 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 ghcr.io/ansible/awx_devel:latest
 
+# postgre
+#--platform=linux/amd64
+postgre

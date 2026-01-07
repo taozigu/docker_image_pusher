@@ -15,5 +15,8 @@
 # postgres
 
 # postgres的hub.io地址： https://hub.docker.com/_/postgres/tags
-postgres:14
+#postgres:14
+
+# gpustack
+gpustack/gpustack
 
